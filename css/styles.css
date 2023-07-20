@@ -1,0 +1,144 @@
+body{ /*Applies to the entire body of the page*/
+  font-size: 16px;
+  color: #fff;
+  background-color: #6610f2;
+  font-family: 'Flamenco', cursive;
+}
+
+#myNavbar{ /*Applies to entire Navigation bar*/
+  padding-top:10px;
+  border: 2px solid #000;
+  background-color: #d63384 !important;
+          }
+
+/*Specifically to every content inside Navbar 
+including the dropdown menu unless changed further as below */
+
+#myNavbar a{  
+	color:#000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#navbarNav .nav-item a { /*Specific to elements in dropdown menu */               
+  background-color: #FFB6C1;
+  font-family: 'Georgia', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+}
+
+.navbar-collapse { /*For the content inside dropdown menu*/
+  width: 100%;
+  text-align: center;
+
+}
+
+.navbar-toggler { /*z-index is a CSS property that sets 
+                  the stack order of specific elements. 
+                  An element with a greater stack order is 
+                  always in front of another element with a lower stack order.*/
+  z-index: 9999;
+  color: #fff; 
+}
+
+/* Change color on hover of toggler */
+button.navbar-toggler:hover {
+  background-color: #FFFFFF; 
+}
+
+.nav-item a {
+  border: 2px solid #000; /* or any color of your choice */
+  margin: 5px 0; /* to provide space between items */
+  }
+
+/* Change color on hover */
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  background-color: #FFFFFF;  
+  color: #000; 
+}
+
+/* Change color on focus */
+#navbarNav .navbar-nav .nav-item .nav-link:focus {
+  background-color: #FFFFFF;  
+  color: #000; 
+}
+
+/* ul.navbar-nav { /*Applies contents inside of ul
+>>>> Ex: The following background color changes the entire 
+         background of dropdown menu. As the above code only 
+         changes the background of elements inside of the border of ".nav-item a"
+    background-color: #40E0D0;
+} */
+
+/* END HEADER */
+
+.menu{
+  margin:15px; 
+}
+
+.main-title{
+  font-weight: bold;
+  margin-top: -3px;
+}
+
+.menu-content{ 
+  margin-top:40px;
+}
+
+.menu-item{
+  background:#9683EC; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #000; /* Add border */
+  box-sizing: border-box; /* To ensure padding and border are included in the element's total width and height */
+}
+ 
+}
+
+.menu-item h4 {
+  font-weight: bold;
+}
+
+.menu-item p{
+  padding: 5px 10px;
+}
+
+/*Large devices only*/
+@media (min-width: 992px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+}
+
+/*Medium devices only*/
+@media (min-width: 768px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+}
+
+/*Smaller devices only*/
+@media (max-width: 576px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+}
+
+.menu{
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+}
+/* CSS */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
