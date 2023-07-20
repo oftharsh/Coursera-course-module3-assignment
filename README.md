@@ -15,9 +15,9 @@ _Here is what you will need to complete the assignment:_
 
 4. Since we are using Bootstrap for this assignment, instead of specifying pixel ranges, I will define our desktop, tablet, and mobile views in terms of Bootstrap CSS class prefixes, i.e., md, sm, and xs.
 
-   *Desktop mockup illustration should correspond to Bootstrap md-based classes
-   *Tablet mockup illustration should correspond to Bootstrap sm-based classes
-   *Mobile mockup illustration should correspond to Bootstrap xs-based classes
+   * Desktop mockup illustration should correspond to Bootstrap md-based classes
+   * Tablet mockup illustration should correspond to Bootstrap sm-based classes
+   * Mobile mockup illustration should correspond to Bootstrap xs-based classes
 
 5. Navbar: Create a navbar that scrolls away together with the page _(the navbar should become invisible and not fixed to the top when you scroll the page down)_. The navbar should have a company name (i.e., navbar-brand 
    class) called "Food, LLC" which is aligned to the left side of the navbar. Make the browser window narrower to see the mobile menu button appear. 
@@ -57,16 +57,16 @@ _Here is what you will need to complete the assignment:_
 15. (OPTIONAL, NOT GRADED)Layout: In the desktop view, each of the 3 sections should take up an equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or 
      narrower.
 
-   _(Hint: use md-based grid column classes as discussed in Lecture 26 and Lecture 35 among others. It's a 12-grid-based system, so 3 in a row means each grid will take up 4 grid cells, i.e., col-md-4.)_
+       _(Hint: use md-based grid column classes as discussed in Lecture 26 and Lecture 35 among others. It's a 12-grid-based system, so 3 in a row means each grid will take up 4 grid cells, i.e., col-md-4.)_
 
 16. (OPTIONAL, NOT GRADED)Layout: In the tablet view, the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself.
 
-   _(Hint: use 'sm'-based grid column classes and remember that you don't really need to define a separate 'row' class as you can achieve this layout within a single Bootstrap 'row' as discussed in Lecture 26 and Lecture 
-     35, among others. To have 2 sections take up an entire row, i.e., all 12 columns, each one should take up 6 columns. To make the 3rd section take up the entire width of the browser window, i.e., 12 columns, use col- 
-     sm-12.)_
+     _(Hint: use 'sm'-based grid column classes and remember that you don't really need to define a separate 'row' class as you can achieve this layout within a single Bootstrap 'row' as discussed in Lecture 26 and 
+       Lecture 35, among others. To have 2 sections take up an entire row, i.e., all 12 columns, each one should take up 6 columns. To make the 3rd section take up the entire width of the browser window, i.e., 12 columns, 
+       use col- sm-12.)_
 
 17. (OPTIONAL, NOT GRADED)Layout: In the mobile view, each section should take up the entire row.
 
-   _(Hint: use xs-based grid column class. Since you need to take up the entire row, use col-xs-12.)_
+     _(Hint: use xs-based grid column class. Since you need to take up the entire row, use col-xs-12.)_
  
 18. (OPTIONAL, NOT GRADED) Link the menu items "Chicken", "Beef", and "Sushi" from the mobile-only menu drop-down to jump to the part of the page those sections correspond to.
